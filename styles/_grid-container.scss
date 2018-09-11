@@ -1,0 +1,56 @@
+.grid-container {
+  .explore-membership {
+    width: 100%;
+    height: 697px;
+    background-color: #30336b;
+    border-bottom: 1px solid #c7ecee;
+  }
+
+  .latest-post {
+    article {
+      width: 100%;
+      height: 512px;
+      background-color: #dff9fb;
+      border-bottom: 1px solid #95afc0;
+    } // end of article
+  } // end of latest-post
+
+  .membership {
+    width: 100%;
+    height: 631px;
+    background-color: #7ed6df;
+    border-bottom: 1px solid #4834d4;
+  }
+
+  .other-articles {
+    article {
+      width: 100%;
+      height: 481px;
+      background-color: #dfe4ea;
+      border-bottom: 1px solid #a4b0be;
+    } // end of article
+  } // end of other-articles
+
+  .comming-up {
+    width: 100%;
+    height: 811px;
+    background-color: #70a1ff;
+  }
+
+  .community-links {
+    .person-of-the-week{
+      width: 100%;
+      height: 600px;
+      background-color: #a4b0be;
+      border-bottom: 1px solid #747d8c;
+    }
+
+    .persons-link {
+      width: 100%;
+      height: 377px;
+      background-color: #dfe4ea;
+      border-bottom: 1px solid #a4b0be;
+    }
+  }
+
+} // end of grid-container
