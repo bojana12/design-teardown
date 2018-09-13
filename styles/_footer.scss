@@ -9,12 +9,38 @@ footer {
       padding: 40px 0 10px 20px;
       text-transform: uppercase;
       color: #34495e;
-    }
+
+      @media screen and (min-width: 768px) {
+        text-align: center;
+      }
+    } // end of h4
 
     .topics {
       width: 49%;
       display: inline-block;
       color: #34495e;
+
+      @media screen and (min-width: 768px) {
+        width: 32%;
+      }
+
+      &#list3 {
+        display: none;
+
+        @media screen and (min-width: 768px) {
+          display: inline-block;
+        }
+      }
+    } // end of topics
+  } // end of magazine-topics
+
+  .content {
+    position: relative;
+    top: 40%;
+    
+    p {
+      text-align: center;
+      color: #34495e;
     }
-  }
-}
+  } // end of content
+} // end of footer
