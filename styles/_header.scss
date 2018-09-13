@@ -15,6 +15,10 @@ header {
       background-color: #dff9fb;
       border-right: 1px solid #95afc0;
 
+      @media screen and (min-width: 1024px) {
+        display: block;
+      }
+
       &:last-child {
         border-right: none;
       }
@@ -27,6 +31,10 @@ header {
       margin: 30px;
       background-color:#dff9fb;
       border: 1px solid #95afc0;
+
+      @media screen and (min-width: 1024px) {
+        display: none;
+      }
     }
 
     .logo-image {

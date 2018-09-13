@@ -4,6 +4,10 @@ footer {
   background-color: #c7ecee;
 
   .magazine-topics {
+    @media screen and (min-width: 1024px) {
+      text-align: center;
+    }
+
     h4 {
       margin: 0;
       padding: 40px 0 10px 20px;
@@ -30,6 +34,23 @@ footer {
         @media screen and (min-width: 768px) {
           display: inline-block;
         }
+
+        @media screen and (min-width: 1024px) {
+          margin-left: -50px;
+        }
+      } // end of list3
+
+      li {
+        @media screen and (min-width: 1024px) {
+          float: left;
+          margin-right: 30px;
+        }
+      }
+
+      @media screen and (min-width: 1024px) {
+        width: 27%;
+        margin: 40px 0 0 0;
+        padding: 0;
       }
     } // end of topics
   } // end of magazine-topics
@@ -37,7 +58,7 @@ footer {
   .content {
     position: relative;
     top: 40%;
-    
+
     p {
       text-align: center;
       color: #34495e;

@@ -16,6 +16,13 @@
     .grid-container .explore-membership button {
       margin-left: 20px;
       top: 90%; }
+  @media screen and (min-width: 1024px) {
+    .grid-container .latest-post {
+      width: 70%;
+      margin: 0 auto; } }
+  @media screen and (min-width: 1440px) {
+    .grid-container .latest-post {
+      width: 100%; } }
   .grid-container .latest-post article {
     width: 100%;
     height: 512px;
@@ -29,6 +36,14 @@
           width: 100%; }
           .grid-container .latest-post article:last-child a {
             width: 50%; } }
+    @media screen and (min-width: 1440px) {
+      .grid-container .latest-post article {
+        width: 33.3%; }
+        .grid-container .latest-post article:last-child {
+          float: left;
+          width: 33.4%; }
+          .grid-container .latest-post article:last-child a {
+            width: 90%; } }
   .grid-container .membership {
     width: 100%;
     height: 631px;
@@ -41,6 +56,20 @@
         margin: 0 auto;
         border-radius: 11px;
         border: none; } }
+    @media screen and (min-width: 1024px) {
+      .grid-container .membership {
+        width: 70%; } }
+    @media screen and (min-width: 1440px) {
+      .grid-container .membership {
+        width: 60%;
+        float: left; } }
+  @media screen and (min-width: 1024px) {
+    .grid-container .other-articles {
+      width: 70%;
+      margin: 0 auto; } }
+  @media screen and (min-width: 1440px) {
+    .grid-container .other-articles {
+      width: 100%; } }
   .grid-container .other-articles article {
     width: 100%;
     height: 481px;
@@ -61,6 +90,10 @@
     .grid-container .coming-up button {
       width: 300px;
       top: 70%; }
+  @media screen and (min-width: 1024px) {
+    .grid-container .community-links {
+      width: 70%;
+      margin: 0 auto; } }
   .grid-container .community-links .person-of-the-week {
     width: 100%;
     height: 800px;
@@ -73,6 +106,9 @@
         top: -30%; }
       .grid-container .community-links .person-of-the-week img {
         margin: 60px 50px 0 90px; } }
+    @media screen and (min-width: 1024px) {
+      .grid-container .community-links .person-of-the-week {
+        border: none; } }
     .grid-container .community-links .person-of-the-week img {
       width: 240px;
       height: 240px;
@@ -84,7 +120,7 @@
   .grid-container .community-links .persons-link {
     width: 100%;
     height: 377px;
-    background-color: #dfe4ea;
+    background-color: #b2bec3;
     border-bottom: 1px solid #a4b0be; }
     .grid-container .community-links .persons-link .story h2 {
       color: #34495e;
@@ -140,6 +176,9 @@ header {
       height: 138px;
       background-color: #dff9fb;
       border-right: 1px solid #95afc0; }
+      @media screen and (min-width: 1024px) {
+        header nav .nav-figure {
+          display: block; } }
       header nav .nav-figure:last-child {
         border-right: none; }
     header nav .logo-image,
@@ -149,6 +188,10 @@ header {
       margin: 30px;
       background-color: #dff9fb;
       border: 1px solid #95afc0; }
+      @media screen and (min-width: 1024px) {
+        header nav .logo-image,
+        header nav .menu {
+          display: none; } }
     header nav .logo-image {
       width: 53px; }
     header nav .menu {
@@ -156,7 +199,8 @@ header {
       width: 96px; }
 
 .latest-articles {
-  width: 100%; }
+  width: 100%;
+  clear: both; }
   .latest-articles h1,
   .latest-articles .main-title {
     position: absolute;
@@ -173,24 +217,25 @@ header {
   .latest-articles .main-title {
     top: 45%;
     font-weight: bold; }
-  .latest-articles article {
+  .latest-articles .story {
     width: 100%;
     height: 512px;
     margin-top: -30px;
     background-color: #95afc0;
     border-bottom: 1px solid #535c68; }
     @media screen and (min-width: 768px) {
-      .latest-articles article {
+      .latest-articles .story {
         float: left;
         width: 50%;
+        height: 656px;
         border: 1px solid #535c68; }
-        .latest-articles article:nth-child(even) {
+        .latest-articles .story:nth-child(even) {
           border-right: 0; }
-        .latest-articles article .getting-started {
+        .latest-articles .story .getting-started {
           top: 60%; } }
-    .latest-articles article .first-article {
+    .latest-articles .story .first-article {
       top: 60%; }
-    .latest-articles article h2 {
+    .latest-articles .story h2 {
       position: relative;
       display: block;
       top: 20%;
@@ -202,6 +247,9 @@ footer {
   width: 100%;
   height: 717px;
   background-color: #c7ecee; }
+  @media screen and (min-width: 1024px) {
+    footer .magazine-topics {
+      text-align: center; } }
   footer .magazine-topics h4 {
     margin: 0;
     padding: 40px 0 10px 20px;
@@ -222,6 +270,18 @@ footer {
       @media screen and (min-width: 768px) {
         footer .magazine-topics .topics#list3 {
           display: inline-block; } }
+      @media screen and (min-width: 1024px) {
+        footer .magazine-topics .topics#list3 {
+          margin-left: -50px; } }
+    @media screen and (min-width: 1024px) {
+      footer .magazine-topics .topics li {
+        float: left;
+        margin-right: 30px; } }
+    @media screen and (min-width: 1024px) {
+      footer .magazine-topics .topics {
+        width: 27%;
+        margin: 40px 0 0 0;
+        padding: 0; } }
   footer .content {
     position: relative;
     top: 40%; }
