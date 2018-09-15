@@ -2,6 +2,7 @@ footer {
   width: 100%;
   height: 717px;
   background-color: #c7ecee;
+  clear: both;
 
   .magazine-topics {
     @media screen and (min-width: 1024px) {
@@ -28,6 +29,15 @@ footer {
         width: 32%;
       }
 
+      @media screen and (min-width: 1024px) {
+        margin: 40px 0 0 0;
+        padding: 0;
+      }
+
+      @media screen and (min-width: 1440px) {
+        width: 23%;
+      }
+
       &#list3 {
         display: none;
 
@@ -36,22 +46,34 @@ footer {
         }
 
         @media screen and (min-width: 1024px) {
-          margin-left: -50px;
+          margin-left: -70px;
         }
       } // end of list3
+
+      &#list4,
+      &#list5,
+      &#list6 {
+        display: none;
+
+        @media screen and (min-width: 1440px) {
+          display: inline-block;
+          font-size: 20px;
+        }
+      }
+
+      &#list6 {
+        @media screen and (min-width: 1440px) {
+          margin-left: -100px;
+        }
+      }
 
       li {
         @media screen and (min-width: 1024px) {
           float: left;
-          margin-right: 30px;
+          margin-right: 31px;
+          font-size: 20px;
         }
-      }
-
-      @media screen and (min-width: 1024px) {
-        width: 27%;
-        margin: 40px 0 0 0;
-        padding: 0;
-      }
+      } // end of li
     } // end of topics
   } // end of magazine-topics
 
